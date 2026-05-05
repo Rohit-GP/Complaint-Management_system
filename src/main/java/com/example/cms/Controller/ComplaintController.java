@@ -30,7 +30,7 @@ public class ComplaintController {
         return complaintService.getComplaintsByStatus(status);
     }
 
-    @GetMapping("/complaints/{category}")
+    @GetMapping("/category/{category}")
     public List<Complaint> getByCatrgory(@PathVariable String category) {
         return complaintService.getComplaintsByCategory(category);
     }

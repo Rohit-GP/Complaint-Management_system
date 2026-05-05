@@ -26,7 +26,7 @@ public class VoteService {
 
     public String voteComplaint(Long userId, Long complaintId) {
 
-        if (voteRepository.findByUser_UserIdAndComplaint_Id(userId, complaintId)
+        if (voteRepository.findByUser_UserIdAndComplaint_ComplaintId(userId, complaintId)
                 .isPresent()) {
             return "You have already voted";
         }

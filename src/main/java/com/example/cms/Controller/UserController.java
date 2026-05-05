@@ -20,7 +20,7 @@ public class UserController {
         return userService.registorUser(user);
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/{username}")
     public Optional<User> getUser(@PathVariable String username) {
         return userService.findByUsername(username);
     }
