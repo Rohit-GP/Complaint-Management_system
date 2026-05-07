@@ -1,4 +1,4 @@
-﻿# Complaint-Management_system
+﻿# Complaint-Management-System
 
 ## Problem Statement
 
@@ -6,7 +6,7 @@ In many institutions, organizations, and public systems, complaint management re
 
 Your challenge is to design and develop a Decentralized Complaint Management System that eliminates reliance on a single controlling authority and instead ensures transparency, traceability, and trust across all participants in the system.
 
-The system should allow users to raise complaints related to various domains (such as campus issues, municipal services, workplace concerns, etc.) and ensure that once a complaint is submitted, it cannot be altered or removed without proper traceability. Every action taken on a complaint — including assignment, updates, comments, and resolution — must be recorded in a way that is tamper-resistant and auditable by all relevant stakeholders.
+The system should allow users to raise complaints related to various domains (such as campus issues, municipal services, workplace concerns, etc.) and ensure that once a complaint is submitted, it cannot be altered or removed without proper traceability. Every action taken on a complaint - including assignment, updates, comments, and resolution - must be recorded in a way that is tamper-resistant and auditable by all relevant stakeholders.
 
 Participants must rethink how complaint workflows operate in a decentralized environment. There is no single admin with full control; instead, authority and verification should be distributed across roles or nodes. The system should incorporate mechanisms for validating actions (such as resolving or escalating complaints) through consensus, voting, or verifiable rules. Users should be able to track the lifecycle of their complaints in real time, with full visibility into who performed each action and when.
 
